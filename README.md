@@ -7,13 +7,15 @@ A file management system with file uploads, relational metadata, validation, and
 2. Docker Compose - Usually included with Docker Desktop.
 
 # How to run:
-1. Since it's for demo purposes, rename [.env.example](./.env.example) to [.env](./.env)
+1. Start the Docker Engine.
 
-2. Build and Start
+2. Since it's for demo purposes, rename [.env.example](./.env.example) to [.env](./.env)
+
+3. Build and Start
 Open your terminal in the project root and run:
 `docker-compose up -d --build`
 
-3. Access the Application
+4. Access the Application
 Once the build is complete, you can view the app at: `http://localhost:3000`
 
 # Shutting down
